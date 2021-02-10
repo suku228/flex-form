@@ -18,7 +18,7 @@ function useFlexiData() {
                     "Kerala",
                     "Tamil Nadu"
                 ],
-             "key":'0'
+             "key":'01'
             }
         ],
         children:[
@@ -28,7 +28,7 @@ function useFlexiData() {
                 "name": "personname",
                 "label": "Person's Name",
                 "type": 'TextField',
-                'key':'0'
+                'key':'011'
                 },
                 {
                 "name": "states",

@@ -15,9 +15,8 @@ function App() {
     
     if(item.key){
     if(item.key === k){
-    console.log(item.key === k,item.key ,k)
     item[item['name']] = val;
-    return obj;
+    return ;
     }}
     
     }
@@ -29,10 +28,10 @@ function App() {
     // setDynamicVal1(flexiConfig, '0', 'sukesh')
 
     function setDynamicVal(k,val){
-      console.log(k, val)
-      const tempObj = setDynamicVal1(flexiConfig, k, val);
-      console.log(tempObj)
-      setFlexiConfig(tempObj)
+       setDynamicVal1(flexiConfig, k, val);
+      console.log(flexiConfig)
+      if(flexiConfig)
+      setFlexiConfig(flexiConfig)
     }
 
   const onSubmit = ()=>{
